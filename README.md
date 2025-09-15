@@ -13,11 +13,33 @@ how I should do
 5. 이를 폭탄 목걸이가 내 목에 걸려있다 생각하고 하라.
 
 
-class -> 변수 - 함수로 이루어짐
-instance -> class라는 찰흙 상자에서 찰흙을 조금 떼서 이름 붙혀서 사용하는 것.
 
-final이란 무엇인가.
-const와 달리,
-파일이 실행되면서, 변수 값이 확정된다.
-정적 & 동적할당과 비슷한 개념.
+개념 정리
+a. class 
+-> consist with variable and function
+
+b. instance 
+-> able to using class by naming
+
+c. const 
+-> before compiling, it should clarify
+key point: 
+if same information instance in the class, computer will aware same class and using same memory.
+
+d. final 
+-> while file running on the compiler, variable compiled
+key point: 
+asame like static & dynamic concept
+
+e. using getter between classes
+
+f. function in function
+form: 
+( ( ) { } ) callback function
+why using?: 
+parameter transform at the function -> conclutionly parent function get and work.
+
+**important: if i have to coding whenever, just find at the inflearn video.
+I fogot so many basic function..
+
 
