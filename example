@@ -1,0 +1,47 @@
+//stream 예제 1
+//언젠가 소스 구조 만들 때 백퍼 쓰임
+
+import 'dart:async';
+
+void main() {
+  final controller = StreamController();
+  final stream = controller.stream.asBroadcastStream();
+  
+  //listen으로 듣는 걸 ref로 저장해서 { } 실행.
+  final streamListener1 = stream.listen((ref) {
+    print('Listner 1 : $ref');
+  });
+  
+  final streamListener2 = stream.listen((ref) {
+    print('Listener 2 : $ref');
+  } );
+  
+  final streamListener3 = stream.where((ref) => ref % 2 == 0).listen((ref) => print('Listener 3 : $ref'));
+  
+  controller.sink.add(1);
+  controller.sink.add(2);
+  controller.sink.add(3);
+  controller.sink.add(4);
+  controller.sink.add(5);
+  controller.sink.add(6);
+  
+  
+}
+
+
+//stream 예제 2
+import 'dart:async';
+
+void main(){
+  int value = 1;
+  factorialListen(5).listen((ref){
+    value = value*ref;
+    print(value);
+  });
+}
+
+Stream<int> factorialListen(int number) async*{
+  for(int i = 1 ; i <= number; i++){
+   yield i; 
+   
+  }
