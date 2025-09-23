@@ -17,7 +17,7 @@ how I should do
 
 a. class
 - 
-- # when using
+- ### when using
 - consist with variable and function
 -
 
