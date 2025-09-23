@@ -106,4 +106,8 @@ j) stream
 -
 - ### [key point]
 - *yield -> should finish *yield method and next gogo
-.
+-
+
+h) life cycle
+-
+- <img width="1225" height="677" alt="스크린샷 2025-07-18 205434" src="https://github.com/user-attachments/assets/5c7a8053-7975-4992-b4b7-b5d7aed2f825" />
