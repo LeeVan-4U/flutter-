@@ -17,16 +17,18 @@ how I should do
 
 a. class
 - 
-- when using => consist with variable and function
-
+- # when using
+- consist with variable and function
+-
 
 
 b. instance 
-when using)
--> able to using class by naming
 -
+- # when using)
+- able to using class by naming
 -
--
+
+
 c. const 
 when using)
 -> before compiling, it should clarify
