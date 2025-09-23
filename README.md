@@ -17,31 +17,31 @@ how I should do
 
 a. class
 - 
-- ### when using)
+- ### [when using]
 - consist with variable and function
 -
 
 
 b. instance 
 -
-- ### when using)
+- ### [when using]
 - able to using class by naming
 -
 
 
 c. const 
 -
-- ### when using)
+- ### [when using]
 - before compiling, it should clarify
-- ### key point)
+- ### [key point]
 - if same information instance in the class, computer will aware same class and using same memory.
 -
 
 d. final 
 -
-- ### while using)
+- ### [while using]
 - file running on the compiler, variable compiled
-- ### key point)
+- ### [key point]
 - asame like static & dynamic concept
 -
 
@@ -53,9 +53,9 @@ e. using getter between classes
 
 f. function in function
 -
-- ### form)
+- ### [form]
 - ( ( ) { } ) callback function
-- ### why using?)
+- ### [why using?]
 - parameter transform at the function -> conclutionly parent function get and work.
 -
 
@@ -66,19 +66,19 @@ f. function in function
 
 g. controller
 -
-- ### when using)
+- ### [when using]
 - 1. user gesture
 - 2. user data
 - 3. ui update
 - 4. condition update
-- **5. data communicating**
+- 5. data communicating
 -
--> clarify contorller and handling them.
+- clarify contorller and handling them.
 -
 
 h. future
 - 
-- ### form)
+- ### [form]
 - Future <generic type> name async{ }
 - what I selected type will be saved as name at the future(usually case, server)
 -
@@ -86,24 +86,24 @@ h. future
 
 i. await
 -
-- ### when using)
+- ### [when using]
 - keep await method and return back so cpu find to its calculating todo. 
 - if await method information arrive, next method start.
 -
-- ### key point)
+- ### [key point]
 - Using in the [Future< > name { }]form
 -
 
 
 j) stream
 - 
-- ### when using)
+- ### [when using]
 - listen all update variable
 -
-- ### form)
+- ### [form]
 - stream<generic type> name async* { yield } (as same as return)
 - 수신부는 name.listen( (ref) { } )
 -
-- ### key point)
+- ### [key point]
 - *yield -> should finish *yield method and next gogo
 .
