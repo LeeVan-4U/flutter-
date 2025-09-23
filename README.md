@@ -16,6 +16,7 @@ how I should do
 # 개념 정리
 
 a. class
+- 
 - when using => consist with variable and function
 
 
