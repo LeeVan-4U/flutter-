@@ -17,85 +17,93 @@ how I should do
 
 a. class
 - 
-- ### when using
+- ### when using)
 - consist with variable and function
 -
 
 
 b. instance 
 -
-- # when using)
+- ### when using)
 - able to using class by naming
 -
 
 
 c. const 
-when using)
--> before compiling, it should clarify
-key point: 
-if same information instance in the class, computer will aware same class and using same memory.
 -
+- ### when using)
+- before compiling, it should clarify
+- ### key point)
+- if same information instance in the class, computer will aware same class and using same memory.
 -
--
+
 d. final 
--> while file running on the compiler, variable compiled
-key point)
-asame like static & dynamic concept
 -
+- ### while using)
+- file running on the compiler, variable compiled
+- ### key point)
+- asame like static & dynamic concept
 -
--
+
+
 e. using getter between classes
 -
 -
--
+
+
 f. function in function
-form)
-( ( ) { } ) callback function
-why using?: 
-parameter transform at the function -> conclutionly parent function get and work.
 -
+- ### form)
+- ( ( ) { } ) callback function
+- ### why using?)
+- parameter transform at the function -> conclutionly parent function get and work.
 -
--
-**important: if i have to coding whenever, just find at the inflearn video.
-I fogot so many basic function..
--
--
--
+
+
+**important: do watch the inflearn. I fogot so many basic function..
+
+
+
 g. controller
-when using)
-1. user gesture
-2. user data
-3. ui update
-4. condition update
-**5. data communicating**
 -
--> just clarify contorller and handling them.
+- ### when using)
+- 1. user gesture
+- 2. user data
+- 3. ui update
+- 4. condition update
+- **5. data communicating**
 -
+-> clarify contorller and handling them.
+-
+
 h. future
-form)
-Future <generic type> name async{ }
--> something will save at name with what I selected type at the future(usually case, server)
+- 
+- ### form)
+- Future <generic type> name async{ }
+- what I selected type will be saved as name at the future(usually case, server)
 -
--
--
+
+
 i. await
-when using)
--> keep await method and return back find homework that cpu should calculate. 
-if await method information arrive, next method start.
 -
-key point)
-Using in the [Future< > name { }]form
+- ### when using)
+- keep await method and return back so cpu find to its calculating todo. 
+- if await method information arrive, next method start.
 -
+- ### key point)
+- Using in the [Future< > name { }]form
 -
--
+
+
 j) stream
-when using)
--> listen all update variable
+- 
+- ### when using)
+- listen all update variable
 -
-form)
-stream<generic type> name async { yield } (as same as return)
-수신부는 name.listen( (ref) { } )
+- ### form)
+- stream<generic type> name async* { yield } (as same as return)
+- 수신부는 name.listen( (ref) { } )
 -
-key point)
-*yield -> should finish *yield method and next gogo
+- ### key point)
+- *yield -> should finish *yield method and next gogo
 .
