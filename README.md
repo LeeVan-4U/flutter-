@@ -1,4 +1,4 @@
-# flutter-
+# flutter
 flutter 초보 상태 -> 개념 공부
 
 라이브러리 뜯어쓰려니까 하나도 몰겠음. 충격 먹음.
@@ -13,14 +13,13 @@ how I should do
 5. 이를 폭탄 목걸이가 내 목에 걸려있다 생각하고 하라.
 
 
-개념 정리
--
-a. class 
+# 개념 정리
+- a. class 
 when using)
--> consist with variable and function
--
--
--
+- consist with variable and function
+
+
+
 b. instance 
 when using)
 -> able to using class by naming
